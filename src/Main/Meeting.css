@@ -1,0 +1,22 @@
+.mainheadercard::after {
+  content: "";
+  height: 20px;
+  width: 1px;
+  background-color: #d1d1d1;
+  position: absolute;
+  right: -20%;
+  top: 25%;
+}
+
+.meeting {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.mainheadercard {
+  position: relative;
+}
+
+.textsubtitle3 {
+  font-weight: bold;
+  color: #919191;
+}

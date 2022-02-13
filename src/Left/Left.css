@@ -1,0 +1,31 @@
+.grid {
+  background-color: #000000;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+.bi path {
+  stroke-width: 0.7px;
+  stroke: #acb8c8;
+}
+
+.box path {
+  stroke: #000000;
+}
+
+svg.person {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+}
+
+.grid.add {
+  background-image: linear-gradient(to bottom right, #691a76, #52085f);
+}
+
+.scale {
+  stroke-width: 1px;
+  stroke: white !important;
+}

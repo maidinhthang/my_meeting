@@ -1,0 +1,194 @@
+.next {
+  background-color: #ffffff;
+  padding-bottom: 0 !important;
+}
+
+.home {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.home span {
+  padding: 0 10px;
+}
+
+.home svg path {
+  stroke: #bababc;
+  stroke-width: 1px;
+}
+
+.tab {
+  margin: 0 auto;
+  width: 80%;
+  background-color: #f1f0f6;
+  border-radius: 20px;
+  padding: 10px;
+  position: absolute;
+  top: calc(-50% + 10px);
+  right: calc(10%);
+}
+
+.tab span {
+  font-weight: bold;
+  color: #c2cad6;
+  display: flex;
+  align-items: center;
+}
+
+.tab span span {
+  display: inline-block;
+  background-color: #f46f40;
+  color: #f9cfc0;
+  font-size: 0.8rem;
+  padding: 4px;
+  width: 25px;
+  height: 25px;
+  line-height: 15px;
+  margin-left: 4px;
+  border-radius: 10px;
+}
+
+.seo {
+  background-color: #fafbff;
+  border-bottom: 2px solid #f1f0f6;
+  border-top: 2px solid #f1f0f6;
+  padding: 20px 0;
+}
+
+.seo .grid {
+  height: 16px;
+  width: 16px;
+  padding: 4px;
+}
+
+.seo .person {
+  height: 16px;
+  width: 16px;
+}
+
+.share span {
+  padding: 0 10px;
+}
+
+.section {
+  position: relative;
+  margin-top: 50px;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #c2ecf0;
+}
+
+.superb {
+  align-items: center;
+}
+
+.superb span {
+  margin: 0 10px;
+}
+
+.attend {
+  padding: 0 30px;
+}
+
+.people {
+  padding: 4px 4px;
+  background-color: #ededed;
+  border-radius: 16px;
+  font-size: 0.6rem !important;
+}
+
+.attend .person {
+  height: 16px;
+  width: 16px;
+}
+
+.attend .d-flex {
+  flex-direction: row;
+}
+
+.more {
+  height: 20px;
+  width: 20px;
+  background-image: linear-gradient(to bottom right, #691a76, #52085f);
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.more span {
+  font-size: 0.6rem !important;
+  line-height: 20px;
+  color: #fff !important;
+}
+
+.today {
+  padding: 10px 10px;
+  background-color: #f1f0f6;
+  width: 95%;
+  margin: 0 auto;
+  border-radius: 25px;
+}
+
+.today .d-flex {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bi-brightness-high path {
+  stroke: #f9d857 !important;
+  fill: #f9d857;
+}
+
+.team {
+  background-color: #fbfcff;
+  align-items: center;
+  padding: 20px 20px;
+}
+
+.phone {
+  background-color: #f57141;
+  color: #fff;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  width: 80px;
+  justify-content: space-between;
+}
+
+.phone svg {
+  height: 14px !important;
+  width: 14px !important;
+}
+
+.phone svg path {
+  stroke: #fff;
+  fill: #fff;
+}
+
+.ctr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.upgrade {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 40px 30px;
+  background-color: #9cccd8;
+}
+
+.upgrade path {
+  fill: #607b8b;
+}
+
+.upgrade svg {
+  height: 25px !important;
+  width: 25px !important;
+}

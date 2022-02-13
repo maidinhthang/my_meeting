@@ -1,0 +1,58 @@
+.left {
+  background-color: #ffffff;
+}
+.leftlayout {
+  align-items: center;
+  text-align: center;
+}
+.main {
+  background: #f6f6f6;
+}
+.mainheader {
+  display: flex;
+  align-items: center;
+}
+.meeting {
+  background: #ffffff;
+}
+.bordercomming {
+  border-left: 10px solid #72397d;
+}
+.right {
+  background-color: #ade3ef;
+  position: relative;
+  height: 100%;
+}
+.mainheadercard {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 24px;
+  /* identical to box height */
+
+  letter-spacing: -0.04em;
+
+  /* Text */
+
+  color: #2d2d2d;
+}
+.texttitle {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+
+  letter-spacing: -0.02em;
+  color: #2d2d2d;
+}
+.textsubtitle {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: -0.02em;
+  color: #7c8db5;
+}
+
+svg {
+  color: #000000;
+  width: 20px;
+  height: 20px;
+}
