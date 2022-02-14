@@ -49,7 +49,7 @@ function RightCard() {
                 </span>
               </Col>
               <Col className="mx-0 px-0">
-                <span class="square bg-primary rounded-pill mx-0 px-0">
+                <span class="square bg-primary rounded-pill mx-0 px-0 justify-content-center">
                   Tasks
                 </span>
               </Col>
