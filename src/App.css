@@ -82,6 +82,9 @@ svg.person {
 .grid.add {
   background-image: linear-gradient(to bottom right, #691a76, #52085f);
 }
+.gridmeeting {
+  background-image: linear-gradient(to bottom right, #fff, #52085f);
+}
 
 .scale {
   stroke-width: 1px;
@@ -319,7 +322,7 @@ svg.person {
 }
 
 .today {
-  padding: 10px 10px;
+  padding: 5px 5px;
   background-color: #f1f0f6;
   width: 95%;
   margin: 0 auto;
@@ -372,15 +375,10 @@ svg.person {
   position: absolute;
   bottom: 0;
   width: 100%;
-  padding: 40px 30px;
+  padding: 30px 30px;
   background-color: #9cccd8;
 }
 
 .upgrade path {
   fill: #607b8b;
-}
-
-.upgrade svg {
-  height: 25px !important;
-  width: 25px !important;
 }
