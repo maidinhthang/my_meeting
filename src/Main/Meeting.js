@@ -3,7 +3,11 @@ import * as IC from "react-bootstrap-icons";
 
 function Meeting() {
   return (
-    <Container fluid className="main px-0 mx-0">
+    <Container
+      fluid
+      className="main px-0 mx-0"
+      style={{ position: "relative" }}
+    >
       <Row className="m-4 pt-4 pb-4 ">
         <Col md={3} className="px-0">
           <span className="mainheadercard">Today's Meeting</span>
@@ -12,7 +16,10 @@ function Meeting() {
           <span className="texttitle text-muted">02 Nov 2021</span>
         </Col>
       </Row>
-      <Row className="meeting m-4 pt-4 pb-4 meeting ">
+      <Row
+        className="meeting mx-4 pt-4 pb-4 "
+        style={{ position: "absolute", zIndex: "100", width: "151%" }}
+      >
         <Col md={2} className="cardd">
           <Row>
             <span className="texttitle pb-4">3:30PM</span>

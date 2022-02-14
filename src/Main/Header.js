@@ -57,17 +57,19 @@ function Header() {
               </svg>
             </Col>
             <Col md={4}>
-              <Row>
-                <Col md={6}>
-                  <span style={{ fontWeight: "500" }}>My Calendar</span>
-                </Col>
+              <Col>
+                <Row>
+                  <Col>
+                    <span style={{ fontWeight: "500" }}>My Calendar</span>
+                  </Col>
 
-                <Col md={6}>
-                  <span style={{ fontWeight: "500", color: "#2178FB" }}>
-                    Upgrade To Pro!
-                  </span>
-                </Col>
-              </Row>
+                  <Col className="mx-0 px-0">
+                    <span style={{ fontWeight: "500", color: "#2178FB" }}>
+                      My Calendar!
+                    </span>
+                  </Col>
+                </Row>
+              </Col>
             </Col>
           </Row>
         </Col>

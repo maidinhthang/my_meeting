@@ -15,7 +15,7 @@ function Main() {
         <Row>
           <Meeting />
         </Row>
-        <Row>
+        <Row style={{ marginTop: "15%" }}>
           <Upcoming />
         </Row>
       </Row>

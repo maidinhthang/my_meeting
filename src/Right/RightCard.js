@@ -8,7 +8,7 @@ function RightCard() {
         style={{
           width: "85%",
           margin: "0 auto",
-          marginTop: "200px",
+          marginTop: "270px",
         }}
       >
         <Col className="next p-3">
