@@ -1,7 +1,5 @@
-import { Container, Row, Image, Col } from "react-bootstrap";
+import { Container, Row, Image, Col, Button } from "react-bootstrap";
 import * as IC from "react-bootstrap-icons";
-
-import "./RightCard.css";
 
 function RightCard() {
   return (
@@ -45,15 +43,17 @@ function RightCard() {
           </Row>
           <div className="section">
             <Row className="text-center tab">
-              <Col>
+              <Col className="mx-0 px-0">
                 <span>
                   Chat <span className="3">3</span>
                 </span>
               </Col>
-              <Col>
-                <span>Tasks</span>
+              <Col className="mx-0 px-0">
+                <span class="square bg-primary rounded-pill mx-0 px-0">
+                  Tasks
+                </span>
               </Col>
-              <Col>
+              <Col className="mx-0 px-0">
                 <span>Activity</span>
               </Col>
             </Row>
@@ -183,8 +183,8 @@ function RightCard() {
               </span>
             </Col>
           </Row>
-          <Row className="mt-1 attend">
-            <Col className="d-flex">
+          <Row className="mt-1 attend mx-0 px-0">
+            <Col className="d-flex mx-0 px-0">
               <span
                 className="people"
                 style={{
@@ -221,7 +221,7 @@ function RightCard() {
                 </svg>
               </span>
             </Col>
-            <Col className="d-flex">
+            <Col className="d-flex mx-0 px-0">
               <span
                 className="people"
                 style={{
@@ -258,7 +258,7 @@ function RightCard() {
                 </svg>
               </span>
             </Col>
-            <Col className="d-flex">
+            <Col className="d-flex mx-0 px-0">
               <span></span>
               <span
                 className="people"
@@ -296,7 +296,7 @@ function RightCard() {
                 </svg>
               </span>
             </Col>
-            <Col md="1" className="d-flex more">
+            <Col md="1" className="d-flex more mx-0 px-0">
               <span
                 style={{
                   fontWeight: "500",
@@ -392,26 +392,30 @@ function RightCard() {
                 </svg>
               </span>
             </Col>
-            <Col className={"ctr"}>
-              <span style={{ fontWeight: "500", color: "#0000000" }}>
-                Cancle
-              </span>
-              <span className="phone">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-telephone-fill"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
-                  />
-                </svg>
-                Call
-              </span>
+            <Col className="ctr">
+              <Col>
+                <span style={{ fontWeight: "500", color: "#0000000" }}>
+                  Cancle
+                </span>
+              </Col>
+              <Col>
+                <span className="phone">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-telephone-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+                    />
+                  </svg>
+                  Call
+                </span>
+              </Col>
             </Col>
           </Row>
         </Col>

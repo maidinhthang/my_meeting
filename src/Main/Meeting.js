@@ -1,8 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import * as IC from "react-bootstrap-icons";
 
-import "./Meeting.css";
-
 function Meeting() {
   return (
     <Container fluid className="main px-0 mx-0">
@@ -62,10 +60,7 @@ function Meeting() {
             </span>
           </Row>
           <Row>
-            <span
-              className={`textsubtitle3
-              }`}
-            >
+            <span className="textsubtitle3">
               <IC.Dot className="dot" />
               Active Call
             </span>

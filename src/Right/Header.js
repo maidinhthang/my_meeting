@@ -1,8 +1,6 @@
 import { Container, Row, Image, Col } from "react-bootstrap";
 import * as IC from "react-bootstrap-icons";
 
-import "./Header.css";
-
 function Header() {
   return (
     <Container fluid className="p-3">

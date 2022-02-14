@@ -1,14 +1,12 @@
 import { Container, Row, Image, Nav, Navbar, Col } from "react-bootstrap";
 import * as IC from "react-bootstrap-icons";
 
-import "./Left.css";
-
 function Left() {
   return (
     <Container fluid className="mx-0 px-0 h-100">
       <Row className="leftlayout h-100">
         {/* .....header left........... */}
-        <Row className="mx-0 p-4 justify-content-center">
+        <Row className="mx-0 mt-0 px-4 pb-4 justify-content-center">
           <IC.Grid className="grid" />
         </Row>
         {/* .................col 1 */}

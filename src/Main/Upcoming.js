@@ -1,8 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import * as IC from "react-bootstrap-icons";
 
-import "./Upcoming.css";
-
 function Upcoming() {
   const upcomming = [
     {

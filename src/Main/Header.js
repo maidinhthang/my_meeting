@@ -8,8 +8,6 @@ import {
 } from "react-bootstrap";
 import * as IC from "react-bootstrap-icons";
 
-import "./Header.css";
-
 function Header() {
   return (
     <Container fluid className="main px-0 mx-0">
